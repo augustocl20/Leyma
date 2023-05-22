@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 nav ul{
@@ -8,6 +9,45 @@ nav ul li{
     display: inline-block;
     line-height: 20px;
     margin: 0 5px;
+=======
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+header{ /* un color al navbar y la altura en pixeles*/
+    position: fix;
+    background-color: #ecece6;
+    height: 140px;
+}
+
+
+
+header img /* tamaño de mi logo */{
+    margin: 0;
+    padding: 1px 40px;
+}
+
+header .container /*ubicación de nuestro navbar (header) */{
+    display: flex;
+    margin-right: 110px;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+}
+
+
+header .container2  /*ubicación de nuestro navbar2 (header) esto porque la página requiere de 2 navbar */ {
+    display: flex;
+    margin-right: 100px;
+    flex-direction: column;
+    align-items: flex-end;
+>>>>>>> cc1c76fc5489ee1bb211db18a5061902b56ed282
 }
 
 
@@ -30,6 +70,7 @@ header nav a /*color a los links(a), tamaño, y borde */{
 }
 
 
+<<<<<<< HEAD
 .checkbtn{
     font-size: 30px;
     color: #242C70;
@@ -42,6 +83,8 @@ header nav a /*color a los links(a), tamaño, y borde */{
 #check{
     display: none;
 }
+=======
+>>>>>>> cc1c76fc5489ee1bb211db18a5061902b56ed282
 
 
 header .container2 a{
@@ -60,6 +103,23 @@ header .container a:hover{
 
 
 
+<<<<<<< HEAD
+=======
+@media (min-width: 720px){
+
+  
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header .nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+}
+>>>>>>> cc1c76fc5489ee1bb211db18a5061902b56ed282
 
 
 
@@ -132,7 +192,11 @@ button:hover{ /* el color que tenga el botón cuando pasemos el puntero del mous
 #LEYMA{
     background-color: #040827;
     color: white;
+<<<<<<< HEAD
     height: 120%;
+=======
+    height: 100vh;
+>>>>>>> cc1c76fc5489ee1bb211db18a5061902b56ed282
     display: flex;
     align-items: center;
     justify-content: center;
@@ -312,6 +376,7 @@ button:hover{ /* el color que tenga el botón cuando pasemos el puntero del mous
     }
 
     
+<<<<<<< HEAD
 }
 
 @media (max-width: 990px){
@@ -416,4 +481,6 @@ button:hover{ /* el color que tenga el botón cuando pasemos el puntero del mous
     #check:checked ~ ul{
         left:0;
     }
+=======
+>>>>>>> cc1c76fc5489ee1bb211db18a5061902b56ed282
 }
