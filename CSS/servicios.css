@@ -47,7 +47,6 @@ body {
     line-height: 1em;
     color: #fff;
     text-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
-    text-shadow: 6px 1px 0px #242c709f;
   }
   
   .text-box p {
@@ -192,11 +191,21 @@ body {
   
   @media (max-width: 480px) {
     .text-box h1 {
-      font-size: 4.5vw;
+      font-size: 4vw;
     }
   
     .text-box p {
-      font-size: 2.5vw;
+      font-size: 3vw;
     }
+
+    .text-box {
+        position: absolute;
+        height: 100%;
+        margin: 1%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
   }
-  
