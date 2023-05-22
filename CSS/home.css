@@ -1,0 +1,419 @@
+
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 20px;
+    margin: 0 5px;
+}
+
+
+header nav{
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+header nav a /*color a los links(a), tamaño, y borde */{
+    font-size: 16px;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #242C70 ;
+    background-color: #8685851f; 
+    border-color: black; 
+    border-radius: 7px;
+}
+
+
+.checkbtn{
+    font-size: 30px;
+    color: #242C70;
+    float: right;
+    line-height: 10px;
+    margin-right: 240px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+
+header .container2 a{
+    background-color: transparent;
+} 
+
+header  nav a:hover{
+    color: #242c70;
+    box-shadow: 2px 2px 14px black;
+
+}
+
+header .container a:hover{
+    background-color: #ecece6;
+}
+
+
+
+
+
+
+*{  /* el * dice que a todo el HTML tenga un borde */
+    box-sizing: border-box;
+}
+
+html{ /*el scroll smooth dice que cuando toquemos un link del HTML bajará suavemente */
+    scroll-behavior: smooth;
+}
+
+body{ /*a todo el cuerpo le damos una fuente de letra */
+    font-family: sans-serif;
+    margin: 0; 
+}
+
+h1{font-size: 3.5em;} /*con font size indico a mis titulos y parrafos el tamaño fr fuente */
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font-size: 1.25em;}
+
+button{ /*con esto doy diseño a mi botón le doy un color, un borde, un tamaño y sombra */
+    font-size: 1.6em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border-color: black;
+    box-shadow: 2px 2px 14px black;
+    color: white;
+    background-color: #242c7096;
+    text-align: center;
+    border-radius: 15px;
+}
+
+button:hover{ /* el color que tenga el botón cuando pasemos el puntero del mouse por encima */
+    background-color: rgba(8, 8, 8, 0.897); 
+}
+
+.color-acento{ /* el color que quiero que tenga mi titulo principal del fondo de inicio*/
+    color: #7F87C9;
+}
+
+
+#hero{ /*ubacación de la imagen de fondo y su tamaño, tambien tiene una capa encima de gris para que resalte el fondo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5))
+    ,url("../IMG/soldadura.png"); /*acá llamo a mi fondo. está ubicado en IMG y tiene el nombre de soldadura.png */
+    background-repeat: no-repeat; /*las imagenes por si solas se multilican entonces con esto hago que solo haya 1 */
+    background-size: cover;
+    background-position: center center;
+}
+#hero h1{
+    color: white;
+}
+
+#hero button{
+    color: #c24620;
+}
+
+
+
+#LEYMA{
+    background-color: #040827;
+    color: white;
+    height: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#LEYMA .container{
+    padding: 20px 20px;
+}
+
+#LEYMA h2{
+    color: #c24620;
+    margin-top: 0;
+}
+
+#LEYMA p {
+    display: block;
+}
+
+#LEYMA button{
+    color: #c24620;
+}
+
+#LEYMA .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 15px;
+}
+.carta:first-child{
+    background-image:linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5))
+    ,url("../IMG/mision.jpg") ;
+}
+.carta:nth-child(2){
+    background-image:linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5))
+    ,url("../IMG/vision.png") ;
+}
+
+.carta:nth-child(3){
+    background-image:linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5))
+    ,url("../IMG/valores.png") ;
+}
+
+#servicios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5))
+    ,url("../IMG/modular.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#servicios button{
+    color: #c24620;
+}
+
+#servicios h2{
+    font-size: 70px;
+}
+
+#proyectos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5))
+    ,url("../IMG/escalera.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#proyectos h2{
+    font-size: 70px;
+}
+
+#proyectos button{
+    color: #c24620;
+}
+
+#ubicanos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5))
+    ,url("../IMG/location.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#ubicanos h2{
+    font-size: 70px;
+}
+
+#ubicanos button{
+    color: #c24620;
+}
+
+#ubicanos a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+
+
+@media (min-width: 720px){
+
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header .nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+
+
+    #LEYMA .programas{
+        display: flex;
+        justify-content: center;
+    }
+
+    #LEYMA p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #LEYMA h2{
+        font-size: 4em;
+    }
+
+    #LEYMA h3{
+        margin-top: 0;
+    }
+
+    #LEYMA .carta{
+        padding: 100px;
+        height: 580px;
+        background-size: 100% 150px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: #242c702c;
+        box-shadow: 2px 2px 15px #ecece6;
+    }
+
+    
+}
+
+@media (max-width: 990px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #040827;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+        color: #c24620;
+    }
+    li a:hover, li a.active{
+        background: none;
+        color: rgb(57, 223, 16);
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+
+
+}
+@media (max-width: 1080px){
+
+    #servicios h2{
+        font-size: 28px;
+    }
+    #proyectos h2{
+        font-size: 28px;
+    }
+    #ubicanos h2{
+        font-size: 28px;
+    }
+    #ubicanos a{
+        text-decoration: none;
+        font-size: 23px;
+    }
+    #LEYMA{
+        background-color: #040827;
+        color: white;
+        height: 250%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    #LEYMA h2{
+        font-size: 35px;
+        margin-top: -30%;
+        margin-bottom: -10%;
+    }
+    header img /* tamaño de mi logo */{
+        width: 100%;
+        height: 120%;
+        margin: -10%;
+        padding-top: 15%;
+        padding-left: 12%;
+    }
+}
+@media (max-width: 990px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #040827;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+        color: #c24620;
+    }
+    li a:hover, li a.active{
+        background: none;
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+}
