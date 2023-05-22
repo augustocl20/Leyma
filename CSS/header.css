@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+header{ /* un color al navbar y la altura en pixeles*/
+    background-color: #ecece6;
+    height: 140px;
+}
+
+
+
+header .logo /* tamaño de mi logo */{
+    margin: 0;
+    padding: 25px 30px;
+}
+
+header .container /*ubicación de nuestro navbar (header) */{
+    
+    display: flex;
+    margin-right: 110px;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+}
+
+
+header .container2  /*ubicación de nuestro navbar2 (header) esto porque la página requiere de 2 navbar */ {
+    display: flex;
+    margin-right: 100px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+header nav{
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+header a /*color a los links(a), tamaño, y borde */{
+    font-size: 16px;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #242C70 ;
+    background-color: #8685851f; 
+    border-color: black; 
+    border-radius: 7px;
+}
+
+header .container2 a{
+    background-color: transparent;
+} 
+
+header a:hover{
+    color: #242c70;
+    box-shadow: 2px 2px 14px black;
+
+}
+
+header .container a:hover{
+    background-color: #ecece6;
+}
+
+
+
+@media (min-width: 720px){
+
+    
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header .nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+}
+

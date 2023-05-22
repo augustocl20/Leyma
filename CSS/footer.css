@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+/*:::::Pie de Pagina*/
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+}
+.pie-pagina .grupo-1{
+    width: 100%; /* digo que ocupe el 100% del ancho pero con un maximo de 1200px*/
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr); /*digo que tenga 3 filas de 1 */
+    grid-gap:50px; /*digo que tenga una separación entre ellos de 50 pixeles */
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 40%;  /* un ancho del 40% del total*/
+    height: 40%; /* una altura del 40% del total a mi caja*/
+    display: flex;
+    justify-content: center; /* y digop que se centre*/
+    align-items:end;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px; /* digo que mi imagen tenga un tamaño de 250px*/
+
+}
+.pie-pagina .grupo-1 .box ul, h2{
+    color: #fff; /*el color que quiero que tenga la letra y su tamaño  */
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+.pie-pagina .grupo-1 .box ul, li, a, p{
+    color: #efefef;
+    margin-bottom: 8px; /*el color que quiero que tenga mi lista y su tamaño de letra */
+    text-decoration: none;
+}
+
+
+
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block; /* digo que los elementos estés uno debajo de otro*/
+    text-decoration: none;/* digo que mis links no tengas animación*/
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua; /* digo que mis iconos tengan este color*/
+}
+.pie-pagina .grupo-2{
+    background-color: #c24620;
+    padding: 15px 10px;
+    text-align: center; /* color del final de derechos de autor */
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){ /*digo que en tal resolución mi pantalla se adapte */
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
