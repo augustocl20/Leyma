@@ -6,11 +6,6 @@
     list-style: none;
 }
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> cc1c76fc5489ee1bb211db18a5061902b56ed282
 header{ /* un color al navbar y la altura en pixeles*/
     background-color: #ecece6;
     height: 140px;
@@ -18,7 +13,6 @@ header{ /* un color al navbar y la altura en pixeles*/
 
 
 
-<<<<<<< HEAD
 header img /* tamaño de mi logo -header */{
     padding-left: 10%;
     padding-top: 13%;
@@ -27,15 +21,6 @@ header img /* tamaño de mi logo -header */{
 }
 
 header .container /*ubicación de nuestro navbar (header) */{
-=======
-header .logo /* tamaño de mi logo */{
-    margin: 0;
-    padding: 25px 30px;
-}
-
-header .container /*ubicación de nuestro navbar (header) */{
-    
->>>>>>> cc1c76fc5489ee1bb211db18a5061902b56ed282
     display: flex;
     margin-right: 110px;
     flex-direction: column;
@@ -51,7 +36,6 @@ header .container2  /*ubicación de nuestro navbar2 (header) esto porque la pág
     align-items: flex-end;
 }
 
-<<<<<<< HEAD
 nav ul{
     float: right;
     margin-right: 20px;
@@ -62,8 +46,6 @@ nav ul li{
     margin: 0 5px;
 }
 
-=======
->>>>>>> cc1c76fc5489ee1bb211db18a5061902b56ed282
 
 header nav{
     display: block;
@@ -72,11 +54,7 @@ header nav{
     padding-bottom: 20px;
 }
 
-<<<<<<< HEAD
 header nav a /*color a los links(a), tamaño, y borde */{
-=======
-header a /*color a los links(a), tamaño, y borde */{
->>>>>>> cc1c76fc5489ee1bb211db18a5061902b56ed282
     font-size: 16px;
     padding: 15px 20px;
     text-decoration: none;
@@ -87,7 +65,6 @@ header a /*color a los links(a), tamaño, y borde */{
     border-radius: 7px;
 }
 
-<<<<<<< HEAD
 
 
 .checkbtn{
@@ -105,17 +82,11 @@ header a /*color a los links(a), tamaño, y borde */{
 
 
 
-=======
->>>>>>> cc1c76fc5489ee1bb211db18a5061902b56ed282
 header .container2 a{
     background-color: transparent;
 } 
 
-<<<<<<< HEAD
 header  nav a:hover{
-=======
-header a:hover{
->>>>>>> cc1c76fc5489ee1bb211db18a5061902b56ed282
     color: #242c70;
     box-shadow: 2px 2px 14px black;
 
@@ -127,10 +98,6 @@ header .container a:hover{
 
 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> cc1c76fc5489ee1bb211db18a5061902b56ed282
 @media (min-width: 720px){
 
     
@@ -146,7 +113,6 @@ header .container a:hover{
     }
 }
 
-<<<<<<< HEAD
 @media (max-width: 990px){
     .checkbtn{
         display: block;
@@ -222,5 +188,3 @@ header .container a:hover{
 
 
 }
-=======
->>>>>>> cc1c76fc5489ee1bb211db18a5061902b56ed282
