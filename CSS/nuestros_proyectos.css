@@ -4,6 +4,13 @@
 	box-sizing: border-box;
   }
   
+  header .container /*ubicación de nuestro navbar (header) */{
+    display: flex;
+    margin-right: 110px;
+    align-items: center;
+    height: 100px;
+}
+
   body {
 	background: #040827;
 	font-family: sans-serif;
@@ -12,8 +19,7 @@
   .contenedor {
 	max-width: 1200px;
 	margin: auto;
-	margin-top: 10%;
-	padding: 40px 0px;
+	padding: 40px 0;
 	display: grid;
 	grid-template-columns: 3fr 1fr;
 	gap: 20px;

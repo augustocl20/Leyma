@@ -1,4 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
 
+header{ /* un color al navbar y la altura en pixeles*/
+    background-color: #ecece6;
+    padding-bottom: 20px;
+}
+
+
+
+header img /* tamaño de mi logo -header */{
+    padding-left: 10%;
+    padding-top: 13%;
+    width: 120%;
+    height: 150%;
+}
+
+header .container /*ubicación de nuestro navbar (header) */{
+    display: flex;
+    margin-right: 110px;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+}
+
+
+header .container2  /*ubicación de nuestro navbar2 (header) esto porque la página requiere de 2 navbar */ {
+    display: flex;
+    margin-right: 100px;
+    flex-direction: column;
+    align-items: flex-end;
+}
 
 nav ul{
     float: right;

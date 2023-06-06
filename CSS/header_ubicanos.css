@@ -8,7 +8,7 @@
 
 header{ /* un color al navbar y la altura en pixeles*/
     background-color: #ecece6;
-    height: 140px;
+    padding-bottom: 20px;
 }
 
 
@@ -128,9 +128,7 @@ header .container a:hover{
         text-align: center;
         transition: all .5s;
         margin-top: 50px;
-        margin-bottom: 100px;
-
-        
+        margin-bottom: 100px;     
     }
     .mapa-content{
         margin-top: 20px;
