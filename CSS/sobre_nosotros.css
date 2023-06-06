@@ -36,10 +36,10 @@ body {
   color: rgb(255, 255, 255);
   width: 90%;
   overflow-y: scroll;
-  /* Añade scroll vertical /
+  /* Añade scroll vertical */
   max-height: calc(100% - 40px);
   ;
-  / Límite de altura para activar el scroll /
+  /* Límite de altura para activar el scroll */
 }
 
 .content h1 {
@@ -55,16 +55,16 @@ body {
 
 .content::-webkit-scrollbar {
   width: 10px;
-  / Ancho del scrollbar /
+  /* Ancho del scrollbar */
   background-color: transparent;
-  / Fondo transparente del scrollbar /
+  /* Fondo transparente del scrollbar */
 }
 
 .content::-webkit-scrollbar-thumb {
   background-color: rgba(255, 255, 255, 0.5);
-  / Color del thumb (barra de desplazamiento) /
+  /* Color del thumb (barra de desplazamiento) */
   border-radius: 5px;
-  / Borde redondeado del thumb */
+  /* Borde redondeado del thumb */
 }
 
 .container1 p {
@@ -99,7 +99,7 @@ body {
   .content h1{
     font-size: 6vw;
   }
-
+  
 
   .container1 p {
     font-size: 4vw;
