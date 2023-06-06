@@ -12,7 +12,8 @@
   .contenedor {
 	max-width: 1200px;
 	margin: auto;
-	padding: 40px 0;
+	margin-top: 10%;
+	padding: 40px 0px;
 	display: grid;
 	grid-template-columns: 3fr 1fr;
 	gap: 20px;
