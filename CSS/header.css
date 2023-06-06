@@ -9,7 +9,9 @@
 header{ /* un color al navbar y la altura en pixeles*/
     background-color: #ecece6;
 }
-
+#np_h{
+    padding-bottom: 30px;
+}
 
 
 img /* tamaño de mi logo -header */{

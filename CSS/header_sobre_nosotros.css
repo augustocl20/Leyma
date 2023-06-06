@@ -8,7 +8,7 @@
 
 header{ /* un color al navbar y la altura en pixeles*/
     background-color: #ecece6;
-    height: 140px;
+    padding-bottom: 10px;
 }
 
 

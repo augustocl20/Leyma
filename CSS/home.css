@@ -388,7 +388,7 @@ button:hover{ /* el color que tenga el botón cuando pasemos el puntero del mous
         padding-left: 12%;
     }
 }
-/* @media (max-width: 990px){
+@media (max-width: 990px){
     .checkbtn{
         display: block;
     }
@@ -418,4 +418,4 @@ button:hover{ /* el color que tenga el botón cuando pasemos el puntero del mous
     #check:checked ~ ul{
         left:0;
     }
-} */
+}
