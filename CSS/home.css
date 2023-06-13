@@ -71,7 +71,6 @@ header nav a /*color a los links(a), tamaño, y borde */{
     color: #242C70;
     float: right;
     line-height: 10px;
-    margin-right: 240px;
     cursor: pointer;
     display: none;
 }
