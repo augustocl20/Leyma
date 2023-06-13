@@ -127,7 +127,6 @@ header .container a:hover{
         left: -100%;
         text-align: center;
         transition: all .5s;
-        margin-top: 50px;
         margin-bottom: 100px;     
     }
     .mapa-content{
@@ -165,14 +164,14 @@ header .container a:hover{
     ul{
         position: fixed;
         width: 100%;
-        margin-top: 25%;
+        margin-top: 20%;
         background: #040827;
         top: 80px;
         left: -100%;
         text-align: center;
         transition: all .5s;
-        
     }
+
     nav ul li{
         display: block;
         margin: 50px 0;

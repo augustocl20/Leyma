@@ -349,7 +349,7 @@ button:hover{ /* el color que tenga el botón cuando pasemos el puntero del mous
 
     
 }
-
+/* 
 @media (max-width: 990px){
     .checkbtn{
         display: block;
@@ -357,8 +357,8 @@ button:hover{ /* el color que tenga el botón cuando pasemos el puntero del mous
     ul{
         position: fixed;
         width: 100%;
-        height: 100vh;
-        margin-top: 30%;
+        height: 100%;
+        margin-top: 15%;
         background: #040827;
         top: 80px;
         left: -100%;
@@ -382,7 +382,7 @@ button:hover{ /* el color que tenga el botón cuando pasemos el puntero del mous
     #check:checked ~ ul{
         left:0;
     }
-}
+} */
 
 
 
@@ -416,15 +416,9 @@ button:hover{ /* el color que tenga el botón cuando pasemos el puntero del mous
         margin-top: -30%;
         margin-bottom: -10%;
     }
-    header img /* tamaño de mi logo */{
-        width: 100%;
-        height: 120%;
-        margin: -10%;
-        padding-top: 15%;
-        padding-left: 12%;
-    }
+
 }
-@media (max-width: 990px){
+/* @media (max-width: 990px){
     .checkbtn{
         display: block;
     }
@@ -454,4 +448,4 @@ button:hover{ /* el color que tenga el botón cuando pasemos el puntero del mous
     #check:checked ~ ul{
         left:0;
     }
-}
+} */
