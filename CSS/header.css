@@ -74,6 +74,9 @@ header nav a /*color a los links(a), tamaño, y borde */{
     cursor: pointer;
     display: none;
 }
+#np_checkbtn{
+    margin-right: 200px;
+}
 #check{
     display: none;
 }
