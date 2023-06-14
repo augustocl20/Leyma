@@ -164,7 +164,7 @@ header .container a:hover{
     ul{
         position: fixed;
         width: 100%;
-        margin-top: 20%;
+        margin-top: 12%;
         background: #040827;
         top: 80px;
         left: -100%;
@@ -188,10 +188,10 @@ header .container a:hover{
     #check:checked ~ ul{
         left:0;
     }
-    header img /* tamaño de mi logo */{
+    #img_ubi_h /* tamaño de mi logo */{
         padding-left: 160px;
         width: 330px;
-        height: 120px;
+        margin-top: -3%;
     }
 
 
